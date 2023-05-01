@@ -12,6 +12,7 @@
         android:id="@+id/rvBreakingNews"
         android:paddingBottom="50dp"
         android:clipToPadding="false"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

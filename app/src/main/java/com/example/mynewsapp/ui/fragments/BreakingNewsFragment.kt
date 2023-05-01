@@ -70,6 +70,12 @@ class BreakingNewsFragment:Fragment(R.layout.fragment_breaking_news) {
             is Resource.Loading->{
                 showPrograssBar()
             }
+            else -> {
+                hideProgressBar()
+                response.message?.let{message->
+                    Log.e(TAG,"An error occured: $message")
+                }
+            }
         }
 
 

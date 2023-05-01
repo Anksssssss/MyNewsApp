@@ -13,7 +13,7 @@ import com.example.mynewsapp.models.Article
 
 class NewsAdapter:RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
 
-    private var oldArticleList = emptyList<Article>()
+     var oldArticleList = emptyList<Article>()
 
     inner class ArticleViewHolder(val binding: ItemArticlePreviewBinding):RecyclerView.ViewHolder(binding.root)
 
